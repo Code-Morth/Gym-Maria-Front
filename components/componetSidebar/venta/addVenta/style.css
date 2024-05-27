@@ -1,0 +1,104 @@
+/* style.css */
+
+/* Contenedor principal */
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Encabezado */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Etiqueta */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Select */
+  .Select__control {
+    border-color: #ddd;
+    border-radius: 4px;
+  }
+  
+  .Select__menu {
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Botón */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Lista de productos */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Ítems de la lista de productos */
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Input */
+  input[type="number"] {
+    width: 50px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Formulario de registro de nuevo cliente */
+  .formulario-cliente {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Formulario de registro de nuevo cliente - Título */
+  .formulario-cliente h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Formulario de registro de nuevo cliente - Campo de entrada */
+  .formulario-cliente input {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Formulario de registro de nuevo cliente - Botón */
+  .formulario-cliente button {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Mensaje de error */
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  

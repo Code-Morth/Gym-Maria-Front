@@ -1,0 +1,49 @@
+.form-container {
+    width: 600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    margin-right: 17rem;
+
+  }
+  
+  .form-group {
+    flex: 1 1 50%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-input {
+    width: 60%;
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .submit-button {
+    padding: 0.8rem 0.7rem; /* Ajusta el padding para hacer el botón más pequeño */
+    font-size: 0.9rem; /* Ajusta el tamaño de la fuente para que se vea proporcional al botón más pequeño */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }

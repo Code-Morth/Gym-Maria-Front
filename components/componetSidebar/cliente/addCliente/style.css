@@ -1,0 +1,58 @@
+.form-container {
+  max-width: 600px; /* Limita el ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+  padding: 2rem; /* Agrega padding alrededor del formulario */
+  border: 1px solid #ced4da; /* Añade un borde al formulario */
+  border-radius: 10px; /* Redondea las esquinas del formulario */
+  background-color: #f8f9fa; /* Fondo claro para el formulario */
+}
+
+.form-row {
+  display: flex; /* Aplica flexbox a las filas */
+  justify-content: space-between; /* Espacia los elementos uniformemente */
+  gap: 1rem; /* Espacio entre los elementos */
+  margin-bottom: 1.5rem; /* Espacio inferior para las filas */
+}
+
+.form-group {
+  flex: 1; /* Hace que cada grupo de formulario ocupe el mismo espacio */
+  display: flex;
+  flex-direction: column; /* Asegura que el label y el input estén en columna */
+}
+
+.form-group label {
+  margin-bottom: 0.5rem; /* Espacio entre la etiqueta y el campo */
+  font-weight: bold; /* Hace que las etiquetas sean negritas */
+}
+
+.form-input,
+.form-select {
+  width: 90%; /* Ajusta el ancho de los campos a su contenedor */
+  padding: 0.8rem; /* Espaciado interno de los campos */
+  font-size: 1rem; /* Tamaño de fuente estándar */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #ced4da; /* Borde estándar */
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Transiciones suaves */
+}
+
+.form-input:focus,
+.form-select:focus {
+  outline: none; /* Elimina el contorno predeterminado */
+  border-color: #007bff; /* Color de borde en foco */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra de enfoque */
+}
+
+.submit-button {
+  padding: 0.7rem 1.5rem; /* Espaciado interno del botón */
+  font-size: 1rem; /* Tamaño de fuente del botón */
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero */
+  transition: background-color 0.15s ease-in-out; /* Transición suave */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón */
+}

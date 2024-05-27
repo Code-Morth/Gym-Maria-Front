@@ -1,0 +1,98 @@
+/* styles/style.css */
+
+/* Reset de estilos */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 60%; /* Reduciendo el ancho al 50% */
+  margin: 0 auto;
+  padding: 10px; /* Reduciendo el relleno */
+  
+}
+
+/* Estilos de la tabla */
+.table-container {
+  overflow-x: auto;
+  margin-left: 20rem;
+  margin-bottom: 20rem;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+  background-color: #343a40;
+  color: white;
+  padding: 6px;
+  text-align: left;
+  white-space: normal; /* Permitir que el texto se desplace hacia abajo */
+  word-wrap: break-word; /* Romper palabras si no caben en el contenedor */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #dee2e6;
+  max-width: 100px; /* Estableciendo un ancho máximo para las celdas */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos de los inputs y botones */
+input[type="text"] {
+  width: calc(30% - 16px);
+  padding: 6px;
+  margin-bottom: 6px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.edit-button {
+  background-color: #28a745;
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

@@ -1,0 +1,49 @@
+.form-container {
+    max-width: 600px; /* Aumentamos un poco el ancho para que haya espacio para dos columnas */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si es necesario */
+
+  }
+  
+  .form-group {
+    flex: 1 1 50%;
+    margin-bottom: 1rem; /* Espacio entre los grupos de formulario */
+    display: flex; /* Usamos flexbox para alinear el título y el input verticalmente */
+    flex-direction: column; /* Colocamos el título encima del input */
+  }
+  
+  .form-label {
+    margin-bottom: 0.5rem; /* Espacio entre el título y el input */
+  }
+  
+  .form-input {
+    width: 87%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .submit-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  

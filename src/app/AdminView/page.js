@@ -1,13 +1,11 @@
-
-'use client';
+'use client'
+import '../../../components/helloUsers/HelloUsers';
 import React from 'react'
-import LoginForm from '../../components/login/HandleLogin';
-
-
 function page() {
   return (
     <div>
-      <LoginForm/>
+      admin
+      <helloUsers/>
     </div>
   )
 }

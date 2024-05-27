@@ -1,13 +1,11 @@
-
 'use client';
 import React from 'react'
-import LoginForm from '../../components/login/HandleLogin';
-
+import AllVentas from '../../../../../components/componetSidebar/venta/allVentas/AllVentas';
 
 function page() {
   return (
     <div>
-      <LoginForm/>
+        <AllVentas/>
     </div>
   )
 }

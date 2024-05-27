@@ -1,0 +1,66 @@
+.sidebar {
+    background-color: #000000;
+    color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave */
+  }
+  
+  .menu {
+    margin-bottom: 20px;
+  }
+  
+  .menu h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .menu li {
+    margin-bottom: 5px;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: block; /* Hacer que los enlaces ocupen todo el ancho */
+  }
+  
+  .menu a:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 10px rgba(0, 123, 255, 0.3);
+  }
+  
+  .logout {
+    margin-top: auto;
+  }
+  
+  .logout a {
+    color: #333333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    display: block; /* Hacer que los enlaces ocupen todo el ancho */
+  }
+  
+  .logout a:hover {
+    background-color: #f0f0f0; /* Cambiar el color de fondo al hacer hover */
+  }
+  
